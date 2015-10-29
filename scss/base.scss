@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import
+  // Ioniconsd sad
+  "ionicons/ionicons.scss",
+
+// Variables
+  "mixins",
+  "variables"
+;
+
+a{
+  color: $white;
+}
