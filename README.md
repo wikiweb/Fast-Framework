@@ -1,7 +1,7 @@
 # Fast-Mobile-Web-App
 Fast Mobile Web App Framework for using cordova (phonegap)
 
-# What is Ionic?
+# What is Fast Mobile Web App?
 Fast Mobile Web App is the open source HTML5 Mobile Framework for building amazing, Super Fast, cross-platform hybrid native apps with HTML, JavaScript, and CSS.
 
 ## LICENSE
