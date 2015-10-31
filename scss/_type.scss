@@ -1,0 +1,25 @@
+* {
+    -webkit-tap-highlight-color: 	rgba(0,0,0,0);
+    -webkit-tap-highlight-color: 	transparent; /* For some Androids */
+}
+body {
+    -webkit-touch-callout: 			none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: 		none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: 			none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family: 					$font-family-base;
+    font-size: 						$font-size-base;
+    margin:							0px;
+    padding:						0px;
+}
+
+input[type="email"], input[type="password"], input[type="text"], textarea{
+    outline: 						0;
+    -webkit-appearance:				none;
+    -moz-appearance: 				none;
+    font-family: 					$font-family-base;
+}
+
+a{
+    text-decoration: 				none;
+    outline: 						0;
+}

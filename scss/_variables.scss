@@ -1,4 +1,15 @@
 // Colors
 // -------------------------------
+$white: 							#fff;
+// Fonts
+// -------------------------------
+$font-family-sans-serif:         	"Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
+$font-family-light-sans-serif:   	 "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
 
-$white: #fff;
+$font-family-serif:              	 serif !default;
+$font-family-monospace:          	 monospace !default;
+
+$font-family-base:               	 $font-family-sans-serif !default;
+$font-size-base:                 	 14px !default;
+$font-size-large:                	 18px !default;
+$font-size-small:                	 11px !default;
