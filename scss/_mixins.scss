@@ -1,0 +1,12 @@
+// Bar Mixins
+// --------------------------------------------------
+
+@mixin bar-style($bg-color, $border-color, $color) {
+  border-color: $border-color;
+  background-color: $bg-color;  
+  color: $color;
+
+  .title {
+    color: $color;
+  }
+}

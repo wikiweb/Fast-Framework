@@ -1,15 +1,26 @@
 // Colors
 // -------------------------------
-$white: 							#fff;
+$light-text: color('shades','black');
+$light-bg: color('grey','lighten-3');
+$light-border: color('grey','lighten-2');
+
 // Fonts
 // -------------------------------
-$font-family-sans-serif:         	"Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
-$font-family-light-sans-serif:   	 "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+$font-family-sans-serif: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
+$font-family-light-sans-serif: "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
 
-$font-family-serif:              	 serif !default;
-$font-family-monospace:          	 monospace !default;
+$font-family-serif: serif !default;
+$font-family-monospace: monospace !default;
 
-$font-family-base:               	 $font-family-sans-serif !default;
-$font-size-base:                 	 14px !default;
-$font-size-large:                	 18px !default;
-$font-size-small:                	 11px !default;
+$font-family-base: $font-family-sans-serif !default;
+$font-size-base: 14px !default;
+$font-size-large: 18px !default;
+$font-size-small: 11px !default;
+
+// Bar
+// -------------------------------
+$bar-z-index: 999 !default;
+$bar-default-border: $light-border !default;
+$bar-default-background: $light-bg !default;
+$bar-default-text: $light-text !default;
+$bar-height: 44px !default;

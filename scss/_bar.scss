@@ -1,0 +1,26 @@
+.bar{
+	z-index: $bar-z-index;
+    border-bottom: 1px solid $bar-default-border;
+    border-top: 1px solid $bar-default-border;
+    background-color: $bar-default-background;
+    color: $bar-default-text;
+    position: absolute;
+    width: 100%;
+    height: $bar-height;
+
+    &.bar-header{
+    	top: 0px;
+    	border-top-width: 0;
+    	border-bottom-width: 1px; 
+    }
+
+    &.bar-footer{
+    	bottom: 0px;
+    	border-bottom-width: 0px;
+    	border-top-width: 1px;
+    }
+
+    &.bar-light{
+    	@include bar-style($light-bg, $light-border, $light-text);
+    }
+}
