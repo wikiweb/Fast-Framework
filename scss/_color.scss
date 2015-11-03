@@ -358,6 +358,9 @@ $colors: (
       .#{$color_name}-text.text-#{$color_type} {
         color: $color_value !important;
       }
+      .#{$color_name}-border.border-#{$color_type} {
+        border-color: $color_value !important;
+      }
     }
   }
 }
@@ -369,6 +372,9 @@ $colors: (
   }
   .#{$color}-text {
     color: $color_value !important;
+  }
+  .#{$color}-border {
+    border-color: $color_value !important;
   }
 }
 

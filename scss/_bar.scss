@@ -12,15 +12,69 @@
     	top: 0px;
     	border-top-width: 0;
     	border-bottom-width: 1px; 
+
+        .right{
+            top: 5px;
+        }
+
+        .left{
+            top: 5px;
+        }
+
     }
 
     &.bar-footer{
     	bottom: 0px;
     	border-bottom-width: 0px;
     	border-top-width: 1px;
+
+        .right{
+            bottom: 2px;
+        }
+
+        .left{
+            bottom: 2px;
+        }
     }
 
     &.bar-light{
     	@include bar-style($light-bg, $light-border, $light-text);
+    }
+
+    .title{
+        position: relative;
+        text-align: center;
+        display:block;
+        line-height: 44px;
+    }
+
+    .round-area{
+        position: absolute;
+
+        .button{
+            padding: 9px 10px;
+
+            i{
+                font-size: 24px;
+                margin: -6px 0 0 0;
+            }
+        }
+    }
+    .right{
+        @extend .round-area;
+        right: 8px;
+        .button{
+            float: right;
+            margin-left: 5px;
+        }
+    }
+
+    .left{
+        @extend .round-area;
+        left: 8px;
+        .button{
+            float: left;
+            margin-right: 5px;
+        }
     }
 }
