@@ -21,6 +21,12 @@
             top: 5px;
         }
 
+	    &.sub-header{
+	    	top: $bar-height;
+	    	border-top-width: 0;
+	    	border-bottom-width: 1px; 
+	    }
+
     }
 
     &.bar-footer{

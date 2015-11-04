@@ -1,0 +1,12 @@
+.page{
+	// display: none;
+	&.with-header{
+		margin-top: $bar-height;
+	}
+	&.with-sub-header{
+		margin-top: $bar-height + $bar-height;	
+	} 
+	&.with-footer{
+		margin-bottom: $bar-height;	
+	}
+}

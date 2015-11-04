@@ -5266,6 +5266,23 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.page.button {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+  min-width: 52px;
+  min-height: 47px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  vertical-align: top;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 42px;
+  cursor: pointer; }
+
 .bar {
   z-index: 999;
   border-bottom: 1px solid #e0e0e0;
@@ -5283,6 +5300,10 @@ a {
       top: 5px; }
     .bar.bar-header .left {
       top: 5px; }
+    .bar.bar-header.sub-header {
+      top: 44px;
+      border-top-width: 0;
+      border-bottom-width: 1px; }
   .bar.bar-footer {
     bottom: 0px;
     border-bottom-width: 0px;
@@ -5319,3 +5340,9 @@ a {
     .bar .left .button {
       float: left;
       margin-right: 5px; }
+
+.page.with-header {
+  margin-top: 44px; }
+
+.page.with-sub-header {
+  margin-top: 88px; }
