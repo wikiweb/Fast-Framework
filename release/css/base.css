@@ -5266,6 +5266,22 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.clearfix {
+  display: inline-block; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
 .page.button {
   position: relative;
   display: inline-block;
@@ -5341,8 +5357,12 @@ a {
       float: left;
       margin-right: 5px; }
 
-.page.with-header {
-  margin-top: 44px; }
-
-.page.with-sub-header {
-  margin-top: 88px; }
+.page {
+  float: right;
+  width: 100%; }
+  .page.with-header {
+    margin-top: 44px; }
+  .page.with-sub-header {
+    margin-top: 88px; }
+  .page.with-footer {
+    margin-bottom: 44px; }
