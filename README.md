@@ -1,4 +1,4 @@
-# What is Fast Mobile Web App?
+# What is Fast Framework?
 Fast Mobile Web App is the open source HTML5 Mobile Framework for building amazing, Super Fast, cross-platform hybrid native apps with HTML, JavaScript, and CSS.
 
 ## Development
