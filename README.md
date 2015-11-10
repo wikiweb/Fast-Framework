@@ -1,8 +1,5 @@
-# Fast-Mobile-Web-App
-Fast Mobile Web App Framework for using cordova (phonegap)
-
-# What is Fast Mobile Web App?
-Fast Mobile Web App is the open source HTML5 Mobile Framework for building amazing, Super Fast, cross-platform hybrid native apps with HTML, JavaScript, and CSS.
+# What is Fast Framework?
+Fast Framework is the open source HTML5 Mobile Framework for building amazing, Super Fast, cross-platform hybrid native apps with HTML, JavaScript, and CSS.
 
 ## Development
 * Clone project: `git clone https://github.com/wikiweb/Fast-Framework.git`
@@ -13,4 +10,4 @@ Fast Mobile Web App is the open source HTML5 Mobile Framework for building amazi
 
 ## LICENSE
 
-Fast Mobile Web App is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
+Fast Framework is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
