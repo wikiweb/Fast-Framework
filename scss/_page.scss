@@ -1,8 +1,7 @@
 .page{
 	float: right;
 	width: 100%;
-
-	// display: none;
+	display: none;
 	&.with-header{
 		margin-top: $bar-height;
 	}

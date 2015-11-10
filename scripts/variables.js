@@ -3,4 +3,5 @@ $f.config = {
 	debugMode: true, //Test Flag
 	googleAnalyticsId: '',	
 	newThreadDelay: 5, //ms
+	startPage: 'welcome',
 };

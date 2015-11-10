@@ -5359,7 +5359,8 @@ a {
 
 .page {
   float: right;
-  width: 100%; }
+  width: 100%;
+  display: none; }
   .page.with-header {
     margin-top: 44px; }
   .page.with-sub-header {
